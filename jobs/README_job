@@ -1,0 +1,3 @@
+LMapReduce --mapper PL_expt_mapper.sh --input ./PL_expt_input_files/ 15 --output results_temp --apptype=mimo --np=4 --keep true
+
+LLMapReduce --mapper PL_sim_long_mapper.sh --input inputs_PL_runner.txt --np=200 --keep true
